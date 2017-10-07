@@ -5,6 +5,7 @@ The project helps in repacking the ubuntu server 14.04 iso with necessary docker
 * Download and save the Ubuntu 14.04 Server ISO under iso/ directory
 * Add the docker scripts and supporting files under docker/
 * Edit install.sh with appropriate ISO Image name {just one place where we mount the iso}
+* Edit custom.seed file to update the md5 password hash according to need
 * Run the shell script: sh install.sh
 
 # Output
