@@ -8,6 +8,7 @@ The project helps in repacking the ubuntu server 14.04 iso with necessary docker
 
 # Output
 You will get an iso file generated in the current project directory which can be installed either in a pc or as a virtual box
+After the installation, you will find the setup-docker.sh under /root
 
 # TODO
 Download the ubuntu iso as part of installer script
