@@ -9,6 +9,10 @@ mkdir -p /tmp/iso_new
 mkdir -p /tmp/iso_new/docker/
 mkdir -p /cdrom
 
+# Download the ISO
+#wget --progress=dot http://old-releases.ubuntu.com/releases/14.04.4/ubuntu-14.04.4-server-amd64.iso
+#mv ubuntu-14.04.4-server-amd64.iso iso/
+
 # Mount the ISO
 mount -o loop iso/ubuntu-14.04.4-server-amd64.iso /cdrom
 
