@@ -1,13 +1,5 @@
 #!/bin/sh
 
-remote_url=$1
-proxysettings=$2
-
-if [ $# -eq 0 ]
-  then
-    echo " Remote URL has to be passed as an argument "
-else
-
   echo "Updating all packages"
   apt-get update -y
 
@@ -38,8 +30,3 @@ else
   apt-get install docker-ce=17.06.0~ce-0~ubuntu -y --force-yes
   curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
   chmod +x /usr/local/bin/docker-compose
-
-  #Start the installation of the application
-  #echo "Setting up the application"
-  #ansible-playbook installer.yml --extra-vars "url=$remote_url proxy=$proxysettings"
-fi
