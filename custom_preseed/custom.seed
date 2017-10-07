@@ -29,8 +29,8 @@ d-i clock-setup/ntp boolean true
 # user account setup
 d-i passwd/root-login boolean false
 d-i passwd/make-user boolean true
-d-i passwd/user-fullname string phoenix
-d-i passwd/username string phoenix
+d-i passwd/user-fullname string docker
+d-i passwd/username string docker
 d-i passwd/user-password-crypted password $6$iknFbasWiL3UtiNi$NLofQJ5GFwZT2Bzr9lzg5wG6VeIzyrLqxuO2h/ehVnv81KRJC161u5F7qN/I8BKPV/8299Yi.pOw5Kkw1tDIM1
 d-i passwd/user-uid string
 d-i user-setup/allow-password-weak boolean false
