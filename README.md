@@ -1,5 +1,5 @@
 # Brief
-The project helps in repacking the ubuntu server 14.04 iso with necessary docker files. Feel free to use the script.
+The project helps in repacking the ubuntu server 14.04 iso with necessary docker files.
 
 # Steps
 * Download and save the Ubuntu 14.04 Server ISO under iso/ directory
