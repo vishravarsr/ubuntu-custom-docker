@@ -14,4 +14,4 @@ You will get an iso file generated in the current project directory which can be
 After the installation, you will find the setup-docker.sh under /root
 
 # TODO
-Download the ubuntu iso as part of installer script
+Improve script to support multiple Ubuntu versions and flavors
