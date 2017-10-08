@@ -2,5 +2,4 @@
 
 apt-get update
 
-apt install ubuntu-gnome-desktop
-
+apt install ubuntu-desktop
